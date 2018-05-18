@@ -1,7 +1,52 @@
 * {
-	
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	position: relative;
+	height: 100%;
+	width: 100%;
 }
 
 body {
 	background-color: lightblue;
+}
+
+header {
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.container1 {
+	background-color: ;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.container2 {
+	background-color: ;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+input {
+	border-radius: 20px;
+	height: 130px;
+	width: 50%;
+	text-align: center;
+}
+
+input:focus {
+	background-color: pink;
+	outline: none;
+}
+
+[type='button'] {
+	margin-top: 30px;
 }
