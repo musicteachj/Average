@@ -4,6 +4,17 @@ var newValue = "";
 
 document.getElementById('numberC').innerHTML = num;
 
+var btnOne = document.getElementById('btn').innerHTML;
+var btnTwo = document.getElementById('btnTwo').innerHTML;
+
+var btnOne = btnOne.toUpperCase();
+var btnTwo = btnTwo.toUpperCase();
+
+document.getElementById('btn').innerHTML = btnOne;
+document.getElementById('btnTwo').innerHTML = btnTwo;
+
+
+
 document.getElementById('btn').addEventListener("click", function() {
 	var newValue = document.getElementById('input').value;
 
@@ -27,7 +38,7 @@ document.getElementById('btn').addEventListener("click", function() {
 
 	
 });
-
+;
 document.getElementById('btnTwo').addEventListener("click", function() {
 	reset();
 });
